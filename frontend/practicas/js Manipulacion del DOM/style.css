@@ -1,0 +1,61 @@
+*{
+    margin-top: 0;
+    margin-bottom: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+#section-To-do-list{
+    background-color: antiquewhite;
+     width: 100vw;
+     display: flex;
+}
+.task-manager{
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    width: 50%;   
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    background-color:aqua;
+    border-radius: 15px;
+}
+.task-manager h1 {
+    font-size: 2rem;
+}
+
+.task-manager ol{
+    background-color: aquamarine;
+    width: 70%;
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.task-manager p {
+   text-align: left;
+}
+
+body.dark-theme {
+    background-color: #333;
+    color: #fff;
+  }
+
+  .dark-theme #section-To-do-list{
+    background-color:#2f1929;
+  }
+  
+  .dark-theme .task-manager {
+    background: #222;
+    color: #fff;
+  }
+  
+  .dark-theme #task-list li {
+    background: #444;
+  }
